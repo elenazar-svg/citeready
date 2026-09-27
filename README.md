@@ -1,5 +1,7 @@
 # CiteReady, making web content ready for AI citations
 
+*Building AI course project*
+
 ## Summary
 
 CiteReady is a planned WordPress plugin that scores how ready a page is to be cited by AI answer engines (ChatGPT, Perplexity, Google AI Overviews) and suggests concrete edits that improve both classic SEO and Generative Engine Optimization (GEO).
@@ -23,11 +25,12 @@ Personal motivation. I have worked for over 20 years as an SEO and web consultan
 
 The user works on a post in WordPress and wants to know whether AI engines will use it as a source.
 
-1. The user opens the post in the block editor and adds the questions the page should answer.
+1. The user opens the post, page, product or custom content in the WordPress editor (block editor, or classic editor for WooCommerce products) and adds the questions the page should answer.
 2. CiteReady splits the content into passages and compares each passage with each question.
 3. The plugin returns a **readiness score from 0 to 100** for every question and highlights the passage most likely to be quoted.
 4. The score comes with readable signals, such as "the answer appears after 300 words", "no author or update date", "missing FAQ or structured data", "key terms not defined".
 5. On request, a language model drafts a rewrite of the weak passage. The editor sees the changes side by side and approves, edits or discards them. Nothing is published automatically.
+6. Every analysis is saved in a local history that the administrator can export as CSV.
 
 ![Concept mockup of the CiteReady panel in the WordPress block editor](images/editor-panel-mockup.svg)
 
@@ -39,12 +42,12 @@ Users are SEO consultants, web agencies, editors and e-commerce owners. They nee
 
 The AI features run on the user's own API key, so each site pays only for its own usage and the plugin has no hidden costs.
 
-1. In the plugin settings the user picks an AI provider from a list (for example Anthropic, OpenAI or Google).
-2. A direct link opens the provider page where the key is created.
-3. The user pastes the key and clicks **Test connection**. Models are preselected, so no further configuration is needed.
+1. In the plugin settings the user picks one or more AI providers from a list (for example Anthropic, OpenAI or Google).
+2. For each provider, a direct link opens the page where the key is created.
+3. The user pastes each key and clicks **Test connection**. Models are preselected, so no further configuration is needed.
 4. Before each rewrite the plugin shows an estimate of the cost of the request.
 
-Agencies that manage many sites can also set the key in `wp-config.php`, so it never appears in the admin area.
+Agencies that manage many sites can also set one key per provider in `wp-config.php`, so the keys never appear in the admin area.
 
 A simplified version of the scoring logic:
 
@@ -85,6 +88,7 @@ CiteReady does not need its own training dataset. The data it works on is the co
 | Text embeddings | Measuring how well each passage answers each question (lexical matching when the provider offers no embeddings) |
 | Named entity recognition, via the language model | Checking that key terms are present and defined |
 | Large language model | Drafting rewrites and FAQ suggestions, always reviewed by a human |
+| Citation check, via a language model with web search | Checking whether the page is actually cited for a target question, to collect data for the A/B tests |
 
 The rules and their weights come from published GEO research and from SEO practice, and they can be updated as AI engines change.
 
