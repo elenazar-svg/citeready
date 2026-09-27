@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1000" height="560" rx="16" fill="#f6f7f7"/>
+
+  <!-- Editor top bar -->
+  <rect x="0" y="0" width="1000" height="56" rx="16" fill="#ffffff"/>
+  <rect x="0" y="40" width="1000" height="16" fill="#ffffff"/>
+  <line x1="0" y1="56" x2="1000" y2="56" stroke="#dcdcde"/>
+  <rect x="16" y="12" width="32" height="32" rx="4" fill="#1e1e1e"/>
+  <text x="72" y="34" font-size="14" fill="#50575e">Concept mockup · WordPress block editor</text>
+  <rect x="872" y="14" width="96" height="30" rx="4" fill="#3858e9"/>
+  <text x="920" y="34" font-size="13" fill="#ffffff" text-anchor="middle">Update</text>
+
+  <!-- Post content area -->
+  <text x="60" y="118" font-size="30" font-weight="700" fill="#1e1e1e">How to choose LED lighting</text>
+  <text x="60" y="150" font-size="30" font-weight="700" fill="#1e1e1e">for a small office</text>
+  <g fill="#dcdcde">
+    <rect x="60" y="184" width="540" height="12" rx="6"/>
+    <rect x="60" y="206" width="500" height="12" rx="6"/>
+    <rect x="60" y="228" width="520" height="12" rx="6"/>
+  </g>
+  <rect x="48" y="258" width="564" height="92" rx="8" fill="#e9f7ef" stroke="#68c08b" stroke-width="2"/>
+  <text x="60" y="280" font-size="12" font-weight="700" fill="#1a7f45">MOST LIKELY TO BE CITED</text>
+  <g fill="#a6dcb9">
+    <rect x="60" y="294" width="520" height="12" rx="6"/>
+    <rect x="60" y="316" width="480" height="12" rx="6"/>
+  </g>
+  <g fill="#dcdcde">
+    <rect x="60" y="374" width="530" height="12" rx="6"/>
+    <rect x="60" y="396" width="490" height="12" rx="6"/>
+    <rect x="60" y="418" width="510" height="12" rx="6"/>
+    <rect x="60" y="440" width="300" height="12" rx="6"/>
+  </g>
+
+  <!-- Sidebar -->
+  <rect x="660" y="56" width="340" height="504" fill="#ffffff"/>
+  <rect x="660" y="540" width="340" height="20" fill="#ffffff"/>
+  <line x1="660" y1="56" x2="660" y2="560" stroke="#dcdcde"/>
+  <text x="684" y="92" font-size="16" font-weight="700" fill="#1e1e1e">CiteReady</text>
+  <line x1="660" y1="108" x2="1000" y2="108" stroke="#dcdcde"/>
+
+  <text x="684" y="136" font-size="12" font-weight="700" fill="#50575e">TARGET QUESTION</text>
+  <rect x="684" y="146" width="292" height="36" rx="4" fill="#ffffff" stroke="#949494"/>
+  <text x="696" y="169" font-size="13" fill="#1e1e1e">Which LED light is best for an office?</text>
+
+  <!-- Score ring -->
+  <circle cx="740" cy="246" r="40" fill="none" stroke="#f0f0f1" stroke-width="10"/>
+  <circle cx="740" cy="246" r="40" fill="none" stroke="#1a7f45" stroke-width="10"
+          stroke-dasharray="181 251" transform="rotate(-90 740 246)" stroke-linecap="round"/>
+  <text x="740" y="254" font-size="24" font-weight="700" fill="#1e1e1e" text-anchor="middle">72</text>
+  <text x="800" y="238" font-size="14" font-weight="700" fill="#1e1e1e">Citation score</text>
+  <text x="800" y="258" font-size="13" fill="#50575e">Good, 3 improvements</text>
+
+  <text x="684" y="322" font-size="12" font-weight="700" fill="#50575e">SIGNALS</text>
+  <g font-size="13" fill="#1e1e1e">
+    <circle cx="692" cy="346" r="6" fill="#1a7f45"/><text x="706" y="351">Direct answer in the first 50 words</text>
+    <circle cx="692" cy="374" r="6" fill="#1a7f45"/><text x="706" y="379">Author and update date present</text>
+    <circle cx="692" cy="402" r="6" fill="#d68a00"/><text x="706" y="407">No FAQ structured data</text>
+    <circle cx="692" cy="430" r="6" fill="#d68a00"/><text x="706" y="435">Key terms not defined (lumen, CRI)</text>
+    <circle cx="692" cy="458" r="6" fill="#cc1818"/><text x="706" y="463">No sources for technical claims</text>
+  </g>
+
+  <rect x="684" y="490" width="292" height="36" rx="4" fill="#ffffff" stroke="#3858e9"/>
+  <text x="830" y="513" font-size="13" fill="#3858e9" text-anchor="middle">Suggest a rewrite (Pro)</text>
+</svg>
