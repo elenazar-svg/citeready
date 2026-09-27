@@ -47,7 +47,7 @@
   <circle cx="740" cy="246" r="40" fill="none" stroke="#1a7f45" stroke-width="10"
           stroke-dasharray="181 251" transform="rotate(-90 740 246)" stroke-linecap="round"/>
   <text x="740" y="254" font-size="24" font-weight="700" fill="#1e1e1e" text-anchor="middle">72</text>
-  <text x="800" y="238" font-size="14" font-weight="700" fill="#1e1e1e">Citation score</text>
+  <text x="800" y="238" font-size="14" font-weight="700" fill="#1e1e1e">Readiness score</text>
   <text x="800" y="258" font-size="13" fill="#50575e">Good, 3 improvements</text>
 
   <text x="684" y="322" font-size="12" font-weight="700" fill="#50575e">SIGNALS</text>

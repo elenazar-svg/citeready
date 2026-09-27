@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="350" viewBox="0 0 1000 350" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
   <rect width="1000" height="350" rx="16" fill="#ffffff"/>
   <text x="40" y="52" font-size="24" font-weight="700" fill="#1f2328">How CiteReady works</text>
-  <text x="40" y="80" font-size="15" fill="#59636e">From a web page to a citation score and concrete suggestions</text>
+  <text x="40" y="80" font-size="15" fill="#59636e">From a WordPress post to a readiness score and concrete suggestions</text>
 
   <defs>
     <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
@@ -13,9 +13,9 @@
   <g font-size="14" fill="#1f2328">
     <rect x="40" y="120" width="160" height="130" rx="12" fill="#eef4ff" stroke="#b6cdfb"/>
     <text x="60" y="152" font-weight="700" font-size="13" fill="#2f5bd3">1 · INPUT</text>
-    <text x="60" y="180">Page URL or</text>
-    <text x="60" y="200">WordPress post</text>
-    <text x="60" y="220">+ target questions</text>
+    <text x="60" y="180">WordPress post</text>
+    <text x="60" y="200">+ target</text>
+    <text x="60" y="220">questions</text>
 
     <rect x="232" y="120" width="160" height="130" rx="12" fill="#eef4ff" stroke="#b6cdfb"/>
     <text x="252" y="152" font-weight="700" font-size="13" fill="#2f5bd3">2 · PASSAGES</text>
@@ -31,10 +31,10 @@
     <text x="444" y="240">Entities</text>
 
     <rect x="616" y="120" width="160" height="130" rx="12" fill="#e9f7ef" stroke="#a6dcb9"/>
-    <text x="636" y="152" font-weight="700" font-size="13" fill="#1a7f45">4 · MODEL</text>
-    <text x="636" y="180">Citation score</text>
-    <text x="636" y="200">0 to 100 for</text>
-    <text x="636" y="220">each question</text>
+    <text x="636" y="152" font-weight="700" font-size="13" fill="#1a7f45">4 · SCORE</text>
+    <text x="636" y="180">Rules + AI</text>
+    <text x="636" y="200">similarity, 0 to 100</text>
+    <text x="636" y="220">per question</text>
 
     <rect x="808" y="120" width="160" height="130" rx="12" fill="#fff5e6" stroke="#f2cc8f"/>
     <text x="828" y="152" font-weight="700" font-size="13" fill="#9a5b00">5 · REVIEW</text>
@@ -54,5 +54,5 @@
 
   <!-- Feedback loop -->
   <path d="M888,252 C888,300 120,300 120,254" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#a)"/>
-  <text x="500" y="318" font-size="13" fill="#59636e" text-anchor="middle">Updated page is analysed again, and new citation data retrains the model</text>
+  <text x="500" y="318" font-size="13" fill="#59636e" text-anchor="middle">The updated post is analysed again until the editor is satisfied</text>
 </svg>
