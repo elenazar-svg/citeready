@@ -4,6 +4,8 @@
 
 CiteReady estimates how likely a web page is to be cited by AI answer engines (ChatGPT, Perplexity, Google AI Overviews) and suggests concrete edits that improve both classic SEO and Generative Engine Optimization (GEO).
 
+![How CiteReady works](images/how-it-works.svg)
+
 ## Background
 
 More and more people get answers directly from AI assistants instead of clicking on search results. A page can rank well on Google and still never appear in an AI-generated answer, so the site loses visibility without knowing why.
@@ -26,6 +28,10 @@ The user works on a page and wants to know whether AI engines will use it as a s
 3. A model returns a **citation score from 0 to 100** for every question and highlights the passage most likely to be quoted.
 4. The tool explains the score with readable signals, such as "the answer appears after 300 words", "no author or update date", "missing FAQ or structured data", "key entities not defined".
 5. On request, an AI model drafts a rewrite of the weak passage. The editor reviews and approves every change before publishing.
+
+![Concept mockup of the CiteReady panel in the WordPress block editor](images/editor-panel-mockup.svg)
+
+*Concept mockup of the planned WordPress editor panel. The plugin is not developed yet.*
 
 Users are SEO consultants, web agencies, editors and e-commerce owners. They need clear explanations more than technical metrics, support for languages other than English (Italian first), and full control over what gets published.
 
